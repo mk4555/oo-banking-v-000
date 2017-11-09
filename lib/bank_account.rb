@@ -11,6 +11,10 @@ class BankAccount
     @balance += amount
   end
 
+  def self.name
+    
+  end
+  
   def display_balance
     @balance
   end
