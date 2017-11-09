@@ -10,4 +10,8 @@ class BankAccount
   def deposit(amount)
     @balance += amount
   end
+
+  def valid?
+    if @balance > 0 && @status == "open"
+  end
 end
